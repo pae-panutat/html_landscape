@@ -647,7 +647,7 @@ body.sidebar-gone .main-content {
 	background: linear-gradient(#473c98, #3e1088) !important;
 }
 .img-container {
-	max-width: 600px;
+	max-width: 100%;
 	position: relative;
 	border-radius: 8px;
 	overflow: hidden;
