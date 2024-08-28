@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>LandScape CMU</title>
+
+		<!--favicon -->
+		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+
+		<!--Bootstrap.min css-->
+		<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+		<!--Icons css-->
+		<link rel="stylesheet" href="assets/css/icons.css">
+
+		<!--mCustomScrollbar css-->
+		<link rel="stylesheet" href="assets/plugins/scroll-bar/jquery.mCustomScrollbar.css">
+
+		<!--Style css-->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<!--Sidemenu css-->
+		<link rel="stylesheet" href="assets/plugins/toggle-menu/sidemenu.css">
+
+	</head>
+
+	<body class="app ">
+
+		<div id="spinner"></div>
+
+		<div id="app">
+			<div class="main-wrapper" >
+				<nav class="navbar navbar-expand-lg main-navbar">
+					<a class="header-brand" href="index.html">
+						<img src="assets/img/brand/logo.png" class="header-brand-img" alt="  Asta-Admin  logo">
+					</a>
+					<form class="form-inline mr-auto">
+						<ul class="navbar-nav">
+							<li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fa fa-navicon"></i></a></li>
+						</ul>
+                        
+					</form>
+					<ul class="navbar-nav navbar-right">
+						<li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg">
+							<img src="assets/img/avatar/avatar-1.jpeg" alt="profile-user" class="rounded-circle w-32">
+							<div class="d-sm-none d-lg-inline-block">Admin</div></a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a href="profile.html" class="dropdown-item has-icon">
+									<i class="ion ion-gear-a"></i> Settings
+								</a>
+								<a href="#" class="dropdown-item has-icon">
+									<i class="ion-ios-redo"></i> Logout
+								</a>
+							</div>
+						</li>
+					</ul>
+				</nav>
+
+				<aside class="app-sidebar">
+					<ul class="side-menu">
+						<li>
+							<a class="side-menu__item" href="#"><i class="side-menu__icon fa fa-home"></i><span class="side-menu__label">หน้าแรก</span></a>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fa fa-tasks"></i><span class="side-menu__label">ข้อมูล</span><i class="angle fa fa-angle-right"></i></a>
+							<ul class="slide-menu">
+								<li><a href="#" class="slide-item">การปล่อยก๊าซเรือนกระจก</a></li>
+							</ul>
+						</li>
+						<li>
+							<a class="side-menu__item" href="#"><i class="side-menu__icon ion-ios-redo"></i><span class="side-menu__label">ออกจากระบบ</span></a>
+						</li>
+						
+						
+					</ul>
+				</aside>
+
+				<div class="app-content">
+					<section class="section">   
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h4>ข้อมูล LandScape หน่วยงาน XXXX</h4>
+                                    </div>
+                                    <div class="card-body">
+                                        <ul class="nav nav-pills pb-3" id="myTab3" role="tablist">
+                                            <li class="nav-item">
+                                                <a class="nav-link active" id="home-tab3" data-toggle="tab" href="#tab1" role="tab" aria-controls="home" aria-selected="true">ข้อมูลทั่วไป</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="profile-tab3" data-toggle="tab" href="#tab2" role="tab" aria-controls="profile" aria-selected="false">แผนภาพองค์กร</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="contact-tab3" data-toggle="tab" href="#tab3" role="tab" aria-controls="contact" aria-selected="false">โครงสร้างองค์กร</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="contact-tab3" data-toggle="tab" href="#tab4" role="tab" aria-controls="contact" aria-selected="false">กิจกรรมการปล่อยก๊าซเรือนกระจก</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" id="contact-tab3" data-toggle="tab" href="#tab5" role="tab" aria-controls="contact" aria-selected="false">สรุปผลการคำนวณ</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link " id="contact-tab3" data-toggle="tab" href="#tab6" role="tab" aria-controls="contact" aria-selected="false">รายงาน</a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content border-top p-3" id="myTabContent3">
+                                            <div class="tab-pane fade show active p-0" id="tab1" role="tabpanel">
+                                                Tab1.
+                                            </div>
+                                            <div class="tab-pane fade p-0" id="tab2" role="tabpanel">
+                                                Tab2.
+                                            </div>
+                                            <div class="tab-pane fade p-0" id="tab3" role="tabpanel" >
+                                                Tab3.
+                                            </div>
+                                            <div class="tab-pane fade p-0" id="tab4" role="tabpanel">
+                                                <div class="row">
+													<div class="col-12">
+														<div class="card">
+															<div class="card-header">
+																<h4><span class="badge badge-primary">Scope1</span></h4> 
+															</div>
+															<div class="card-body">
+																<div id="accordion">
+																	<div class="accordion">	
+																		Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores, nostrum perferendis quae obcaecati modi soluta officia aliquam dignissimos voluptate consectetur quo non reiciendis, pariatur quia suscipit qui culpa labore.
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="row">
+													<div class="col-12">
+														<div class="card">
+															<div class="card-header">
+																<h4><span class="badge badge-success">Scope2</span></h4> 
+															</div>
+															<div class="card-body">
+																<div id="accordion">
+																	<div class="accordion">	
+																		Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores, nostrum perferendis quae obcaecati modi soluta officia aliquam dignissimos voluptate consectetur quo non reiciendis, pariatur quia suscipit qui culpa labore.
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+												<div class="row">
+													<div class="col-12">
+														<div class="card">
+															<div class="card-header">
+																<h4><span class="badge badge-warning">Scope3</span></h4> 
+															</div>
+															<div class="card-body">
+																<div id="accordion">
+																	<div class="accordion">	
+																		Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolores, nostrum perferendis quae obcaecati modi soluta officia aliquam dignissimos voluptate consectetur quo non reiciendis, pariatur quia suscipit qui culpa labore.
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+
+                                            </div>
+                                            <div class="tab-pane fade p-0" id="tab5" role="tabpanel">
+                                                Tab5.
+                                            </div>
+                                            <div class="tab-pane fade p-0" id="tab6" role="tabpanel">
+                                                Tab6.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            
+					</section>
+				</div>
+
+				<footer class="main-footer">
+					<div class="text-center">
+						Copyright &copy; CMU 2024<a href="#"></a>
+					</div>
+				</footer>
+
+			</div>
+		</div>
+
+		<!--Jquery.min js-->
+		<script src="assets/js/jquery.min.js"></script>
+		
+		<!--Bootstrap.min js-->
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+		<!--mCustomScrollbar js-->
+		<script src="assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!--Sidemenu js-->
+		<script src="assets/plugins/toggle-menu/sidemenu.js"></script>
+
+		<!--Scripts js-->
+		<script src="assets/js/scripts.js"></script>
+
+	</body>
+</html>
