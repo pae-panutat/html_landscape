@@ -5,7 +5,23 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
  @import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+ .footerWrap {
+  width:100%;
+  position:fixed;
+  bottom: 0px;
+}
+.footer {
+  width:400px;
+  margin:auto;
+  color: #fff;
+}
 
+.footer p {float:left; width:100%; text-align:center; }
+
+.bg_login{
+  background-image: url('/assets/img/bg_login.jpg'); 
+  height: 955px;
+}
 
  :root {
     --blue: #007bff;
