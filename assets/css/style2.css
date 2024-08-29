@@ -19,7 +19,7 @@
 .footer p {float:left; width:100%; text-align:center; }
 
 .bg_login{
-  background-image: url('/assets/img/bg_login.jpg'); 
+  background-image: url('assets/img/bg_login.jpg');
   height: 955px;
 }
 
