@@ -2171,6 +2171,7 @@ div.table-responsive>div.dataTables_wrapper>div.row>div[class^="col-"]:last-chil
 	border-radius: 30px;
 	padding-left: 15px !important;
 	padding-right: 15px !important;
+	padding-top: 15px !important;
 }
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link, .nav-pills .nav-item .nav-link.active {
 	color: #fff;

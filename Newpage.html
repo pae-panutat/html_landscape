@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>GHG Platform Landscape</title>
+
+		<!--favicon -->
+		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+
+		<!--Bootstrap.min css-->
+		<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+
+		<!--Icons css-->
+		<link rel="stylesheet" href="assets/css/icons.css">
+
+		<!--mCustomScrollbar css-->
+		<link rel="stylesheet" href="assets/plugins/scroll-bar/jquery.mCustomScrollbar.css">
+
+		<!--Style css-->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+		<!--Sidemenu css-->
+		<link rel="stylesheet" href="assets/plugins/toggle-menu/sidemenu.css">
+
+	</head>
+
+	<body class="app ">
+
+		<div id="spinner"></div>
+
+		<div id="app">
+			<div class="main-wrapper" >
+				<nav class="navbar navbar-expand-lg main-navbar">
+					<a class="header-brand" href="index.html">
+						<img src="assets/img/brand/logo.png" class="header-brand-img" alt="  Asta-Admin  logo">
+					</a>
+					<form class="form-inline mr-auto">
+						<ul class="navbar-nav">
+							<li><a href="#" data-toggle="sidebar" class="nav-link nav-link-lg"><i class="fa fa-navicon"></i></a></li>
+						</ul>
+                        
+					</form>
+					<ul class="navbar-nav navbar-right">
+						<li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg">
+							<img src="assets/img/avatar/avatar-1.jpeg" alt="profile-user" class="rounded-circle w-32">
+							<div class="d-sm-none d-lg-inline-block">Admin</div></a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a href="profile.html" class="dropdown-item has-icon">
+									<i class="ion ion-gear-a"></i> Settings
+								</a>
+								<a href="#" class="dropdown-item has-icon">
+									<i class="ion-ios-redo"></i> Logout
+								</a>
+							</div>
+						</li>
+					</ul>
+				</nav>
+
+				<aside class="app-sidebar">
+					<ul class="side-menu">
+						<li>
+							<a class="side-menu__item" href="#"><i class="side-menu__icon fa fa-home"></i><span class="side-menu__label">หน้าแรก</span></a>
+						</li>
+						<li class="slide">
+							<a class="side-menu__item" data-toggle="slide" href="#"><i class="side-menu__icon fa fa-tasks"></i><span class="side-menu__label">ข้อมูล</span><i class="angle fa fa-angle-right"></i></a>
+							<ul class="slide-menu">
+								<li><a href="#" class="slide-item">การปล่อยก๊าซเรือนกระจก</a></li>
+							</ul>
+						</li>
+						<li>
+							<a class="side-menu__item" href="#"><i class="side-menu__icon ion-ios-redo"></i><span class="side-menu__label">ออกจากระบบ</span></a>
+						</li>
+						
+						
+					</ul>
+				</aside>
+
+				<div class="app-content">
+					<section class="section">
+            
+							<div class="row">
+								<div class="col-12">
+									<div class="card">
+										<div class="card-header">
+											<h4>คาร์บอนฟุตพริ้นท์ในระดับองค์กร (Carbon Footprint for Organization: CFO)</h4>
+											<span>คือ การประเมินปริมาณการปล่อยและดูดกลับก๊าซเรือนกระจกที่เกิดจากกิจกรรมต่าง ๆ ที่เกี่ยวข้องกับองค์กรในแต่ละปีทั้งทางตรงและทางอ้อม
+
+											</span>
+										</div>
+										<div class="card-body">
+											<ul class="nav nav-pills pb-3" id="myTab3" role="tablist">
+												<li class="nav-item">
+													<a class="nav-link active" id="home-tab3" data-toggle="tab" href="#tab1" role="tab" aria-controls="home" aria-selected="true"><h5>สำหรับข้อมูลทั่วไป</h5></a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" id="profile-tab3" data-toggle="tab" href="#tab2" role="tab" aria-controls="profile" aria-selected="false"><h5 แสฟห>สำหรับคำอธิบายกรอกข้อมูล</h5></a>
+												</li>
+											</ul>
+											<div class="tab-content border-top p-3" id="myTabContent3">
+												<div class="tab-pane fade show active p-0" id="tab1" role="tabpanel" aria-labelledby="home-tab3">
+													<div class="row">
+                                                        <div class="col-12 col-sm-6 col-lg-4">
+                                                            <div class="card card-secondary">
+                                                                <div class="">
+                                                                    <img src="assets/img/news/img01.jpg" class="img2" alt="">
+                                                                </div>
+                                                                <div class="card-body text-secondary">
+                                                                    <h4 class="bl_font">การปล่อยก๊าซเรือนกระจกทางตรง</h4>
+                                                                </div>
+                                                                <div class="card-footer">
+                                                                    <button type="button" class="btn btn-primary btn-rounded w-md waves-effect m-b-5"><i class="fa fa-sign-out" data-toggle="tooltip" title="" data-original-title=" fa-sign-out"></i>อ่านเพิ่มเติม</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-6 col-lg-4">
+                                                            <div class="card card-secondary">
+                                                                <div class="">
+                                                                    <img src="assets/img/news/img02.jpg" class="img2" alt="">
+                                                                </div>
+                                                                <div class="card-body text-secondary">
+                                                                    <h5 class="bl_font">การปล่อยก๊าซเรือนกระจกทางอ้อมจากการใช้พลังงาน</h5>
+                                                                    
+                                                                </div>
+                                                                <div class="card-footer">
+                                                                    <button type="button" class="btn btn-primary btn-rounded w-md waves-effect m-b-5"><i class="fa fa-sign-out" data-toggle="tooltip" title="" data-original-title=" fa-sign-out"></i> อ่านเพิ่มเติม</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-6 col-lg-4">
+                                                            <div class="card card-secondary">
+                                                                <div class="">
+                                                                    <img src="assets/img/news/img03.jpg" class="img2" alt="">
+                                                                </div>
+                                                                <div class="card-body text-secondary">
+                                                                    <h4 class="bl_font">การปล่อยก๊าซเรือนกระจกทางอ้อมอื่น ๆ</h4>
+                                                                    
+                                                                </div>
+                                                                <div class="card-footer">
+                                                                    <button type="button" class="btn btn-primary btn-rounded w-md waves-effect m-b-5"><i class="fa fa-sign-out" data-toggle="tooltip" title="" data-original-title=" fa-sign-out"></i> อ่านเพิ่มเติม</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-6 col-lg-4">
+                                                            <div class="card card-secondary">
+                                                                <div class="">
+                                                                    <img src="assets/img/news/img04.jpg" class="img2" alt="">
+                                                                </div>
+                                                                <div class="card-body text-secondary">
+                                                                    <h4 class="bl_font">การดูดกลับและกักเก็บก๊าซเรือนกระจก</h4>
+                                                                    
+                                                                </div>
+                                                                <div class="card-footer">
+                                                                    <button type="button" class="btn btn-primary btn-rounded w-md waves-effect m-b-5"><i class="fa fa-sign-out" data-toggle="tooltip" title="" data-original-title=" fa-sign-out"></i> อ่านเพิ่มเติม</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+													
+												</div>
+												<div class="tab-pane fade p-0" id="tab2" role="tabpanel" aria-labelledby="profile-tab3">
+													<div class="row">
+                                                        <div class="col-12 col-sm-6 col-lg-4">
+                                                            <div class="card card-secondary">
+                                                                <div class="">
+                                                                    <img src="assets/img/news/img05.jpg" class="img2" alt="">
+                                                                </div>
+                                                                <div class="card-body text-secondary">
+                                                                    <h4 class="bl_font">ข้อมูลเชื้อเพลิง</h4>
+                                                                </div>
+                                                                <div class="card-footer">
+                                                                    <button type="button" class="btn btn-primary btn-rounded w-md waves-effect m-b-5"><i class="fa fa-sign-out" data-toggle="tooltip" title="" data-original-title=" fa-sign-out"></i>อ่านเพิ่มเติม</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-6 col-lg-4">
+                                                            <div class="card card-secondary">
+                                                                <div class="">
+                                                                    <img src="assets/img/news/img06.jpg" class="img2" alt="">
+                                                                </div>
+                                                                <div class="card-body text-secondary">
+                                                                    <h4 class="bl_font">ข้อมูลการใช้สารเคมีจากห้องปฏิบัติการ</h4>
+                                                                    
+                                                                </div>
+                                                                <div class="card-footer">
+                                                                    <button type="button" class="btn btn-primary btn-rounded w-md waves-effect m-b-5"><i class="fa fa-sign-out" data-toggle="tooltip" title="" data-original-title=" fa-sign-out"></i> อ่านเพิ่มเติม</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-6 col-lg-4">
+                                                            <div class="card card-secondary">
+                                                                <div class="">
+                                                                    <img src="assets/img/news/img07.jpg" class="img2" alt="">
+                                                                </div>
+                                                                <div class="card-body text-secondary">
+                                                                    <h4 class="bl_font">การใช้สารทำความเย็น</h4>
+                                                                    
+                                                                </div>
+                                                                <div class="card-footer">
+                                                                    <button type="button" class="btn btn-primary btn-rounded w-md waves-effect m-b-5"><i class="fa fa-sign-out" data-toggle="tooltip" title="" data-original-title=" fa-sign-out"></i> อ่านเพิ่มเติม</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-12 col-sm-6 col-lg-4">
+                                                            <div class="card card-secondary">
+                                                                <div class="">
+                                                                    <img src="assets/img/news/img08.jpg" class="img2" alt="">
+                                                                </div>
+                                                                <div class="card-body text-secondary">
+                                                                    <h4 class="bl_font">การเดินทางไป - กลับของพนักงาน</h4>
+                                                                    
+                                                                </div>
+                                                                <div class="card-footer">
+                                                                    <button type="button" class="btn btn-primary btn-rounded w-md waves-effect m-b-5"><i class="fa fa-sign-out" data-toggle="tooltip" title="" data-original-title=" fa-sign-out"></i> อ่านเพิ่มเติม</button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+												</div>
+												
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</div>
+
+				<footer class="main-footer">
+					<div class="text-center">
+						Copyright &copy; CMU 2024<a href="#"></a>
+					</div>
+				</footer>
+
+			</div>
+		</div>
+
+		<!--Jquery.min js-->
+		<script src="assets/js/jquery.min.js"></script>
+		
+		<!--Bootstrap.min js-->
+		<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+
+		<!--mCustomScrollbar js-->
+		<script src="assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+		<!--Sidemenu js-->
+		<script src="assets/plugins/toggle-menu/sidemenu.js"></script>
+
+		<!--Scripts js-->
+		<script src="assets/js/scripts.js"></script>
+
+	</body>
+</html>
